@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <title>FASCO</title>
+  </head>
+  <body>
+    <header class="main-header container"></header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero__bg bg1"></div>
+        <div class="hero__items">
+          <div class="hero__items-bg"></div>
+          <div class="hero__content">
+            <h1>ULTIMATE <br /><span class="Highlight">SALE</span></h1>
+            <p>NEW COLLECTION</p>
+            <a class="btn" href="Shop.html">SHOP NOW</a>
+          </div>
+          <div class="hero__items-bg2"></div>
+        </div>
+        <div class="hero__bg bg2"></div>
+      </section>
+      <section class="brands">
+        <img src="/assets/images/brand.png" alt="" />
+        <img src="/assets/images/brand2.png" alt="" />
+        <img src="/assets/images/brand3.png" alt="" />
+        <img src="/assets/images/brand4.png" alt="" />
+        <img src="/assets/images/brand5.png" alt="" />
+      </section>
+      <section class="deals">
+        <div class="deals__content">
+          <h2>Deals Of The Month</h2>
+          <p>
+            Discover unbeatable offers on our top products this month. Enjoy
+            exclusive discounts and limited-time deals—shop now before they're
+            gone!
+          </p>
+          <a class="btn">Buy Now</a>
+          <div class="timer">
+            <h3>Hurry, Before It's Too Late!</h3>
+            <div class="timer__countdown">
+              <div class="timer__item">
+                <span class="timer__value" id="days">00</span>
+                <span class="timer__label">Days</span>
+              </div>
+              <div class="timer__item">
+                <span class="timer__value" id="hours">00</span>
+                <span class="timer__label">Hr</span>
+              </div>
+              <div class="timer__item">
+                <span class="timer__value" id="minutes">00</span>
+                <span class="timer__label">Mins</span>
+              </div>
+              <div class="timer__item">
+                <span class="timer__value" id="seconds">00</span>
+                <span class="timer__label">Sec</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-controls">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper discount-swiper">
+          <div class="swiper-wrapper discount-swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="tabs block">
+        <div class="section-header">
+          <h2 class="section__title block-heading">New Arrivals</h2>
+          <p>
+            Explore our latest arrivals and discover the newest trends in
+            fashion. Find fresh styles, unique designs, and must-have
+            accessories to update your wardrobe this season.
+          </p>
+        </div>
+        <div class="tabs__items">
+          <a class="tap" data-tab-target="men-fashion">
+            <p>Men's Fashion</p>
+          </a>
+          <a class="tap active" data-tab-target="women-fashion">
+            <p>Women's Fashion</p>
+          </a>
+          <a class="tap" data-tab-target="women-accessories">
+            <p>Women Accessories</p>
+          </a>
+          <a class="tap" data-tab-target="men-accessories">
+            <p>Men Accessories</p>
+          </a>
+          <a class="tap" data-tab-target="discount-deals">
+            <p>Discount Deals</p>
+          </a>
+        </div>
+        <div class="tabs__content" id="men-fashion">
+          <div class="products">
+            <div class="products__grid"></div>
+
+            <a id="loadMoreBtn" href="Shop.html">View More</a>
+          </div>
+        </div>
+
+        <div class="tabs__content active" id="women-fashion">
+          <div class="products">
+            <div class="products__grid"></div>
+
+            <a id="loadMoreBtn" href="Shop.html">View More</a>
+          </div>
+        </div>
+
+        <div class="tabs__content" id="women-accessories">
+          <div class="products">
+            <div class="products__grid"></div>
+
+            <a id="loadMoreBtn" href="Shop.html">View More</a>
+          </div>
+        </div>
+
+        <div class="tabs__content" id="men-accessories">
+          <div class="products">
+            <div class="products__grid"></div>
+
+            <a id="loadMoreBtn" href="Shop.html">View More</a>
+          </div>
+        </div>
+        <div class="tabs__content" id="discount-deals">
+          <div class="products">
+            <div class="products__grid"></div>
+
+            <a id="loadMoreBtn" href="Shop.html">View More</a>
+          </div>
+        </div>
+      </section>
+      <section class="collection">
+        <div class="image-panel">
+          <img src="assets/images/collection2.png" alt="Model" />
+        </div>
+        <div class="content-panel">
+          <div class="collection__title">Women Collection</div>
+          <h2>Peaky Blinders</h2>
+          <div class="description-title">Description</div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis ultrices sollicitudin aliquam sem.
+          </p>
+          <div class="size-label">
+            Size:
+            <span class="size-selector">M</span>
+          </div>
+          <div class="price">$100.00</div>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="distinction">
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">High Quality</h3>
+            <p class="distinction__description">crafted from top materials</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction2.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">Warranty Protection</h3>
+            <p class="distinction__description">Over 2 years</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction3.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">Free Shipping</h3>
+            <p class="distinction__description">Order over 150 $</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction4.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">24 / 7 Support</h3>
+            <p class="distinction__description">Dedicated support</p>
+          </div>
+        </div>
+      </section>
+      <section class="instagram">
+        <div class="section-header">
+          <h2 class="section__title block-heading">Follow Us On Instagram</h2>
+          <p>
+            Discover the latest trends and exclusive looks from our collection.
+            Follow us for daily inspiration, style tips, and behind-the-scenes
+            moments.
+          </p>
+        </div>
+        <div class="instagram__gallery">
+          <img
+            src="assets/images/Instagram.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram2.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram3.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram4.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram5.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram6.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram7.jpg"
+            alt=""
+            class="instagram__image" />
+        </div>
+      </section>
+      <section class="comments">
+        <div class="section-header">
+          <h2 class="section__title block-heading">
+            This Is What Our Customers Say
+          </h2>
+          <p>
+            Explore our latest arrivals and discover the newest trends in
+            fashion. Find fresh styles, unique designs, and must-have
+            accessories to update your wardrobe this season.
+          </p>
+        </div>
+
+        <div class="comments-swiper-container">
+          <div class="swiper comments-swiper">
+            <div class="swiper-wrapper comments-swiper-wrapper">
+              <div class="swiper-slide comments-card">
+                <img
+                  src="/assets/images/comments.png"
+                  alt="Customer Avatar"
+                  class="comments-card__avatar" />
+                <div class="comments-card__content">
+                  <p class="comments-card__text">
+                    "You won't regret it. I would like to personally thank you
+                    for your outstanding product. Absolutely wonderful!"
+                  </p>
+                  <div class="product-card__rating">
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                  </div>
+                  <div class="line"></div>
+                  <div class="comments-card__author">
+                    <h4 class="comments-card__author-name">James K.</h4>
+                    <p class="comments-card__author-title">Traveler</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide comments-card">
+                <img
+                  src="/assets/images/comments3.png"
+                  alt="Customer Avatar"
+                  class="comments-card__avatar" />
+                <div class="comments-card__content">
+                  <p class="comments-card__text">
+                    “Just what I was looking for. Thank you for making it
+                    painless, pleasant and most of all hassle free! All products
+                    are great.”
+                  </p>
+                  <div class="product-card__rating">
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                  </div>
+                  <div class="line"></div>
+                  <div class="comments-card__author">
+                    <h4 class="comments-card__author-name">Megen W.</h4>
+                    <p class="comments-card__author-title">UI Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide comments-card">
+                <img
+                  src="/assets/images/comments3.png"
+                  alt="Customer Avatar"
+                  class="comments-card__avatar" />
+                <div class="comments-card__content">
+                  <p class="comments-card__text">
+                    “Items That I ordered were the best investment I ever made.
+                    I can't say enough about your quality service."
+                  </p>
+                  <div class="product-card__rating">
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                  </div>
+                  <div class="line"></div>
+                  <div class="comments-card__author">
+                    <h4 class="comments-card__author-name">Suzan B.</h4>
+                    <p class="comments-card__author-title">UI Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide comments-card">
+                <img
+                  src="/assets/images/comments2.png"
+                  alt="Customer Avatar"
+                  class="comments-card__avatar" />
+                <div class="comments-card__content">
+                  <p class="comments-card__text">
+                    “Items That I ordered were the best investment I ever made.
+                    I can't say enough about your quality service."
+                  </p>
+                  <div class="product-card__rating">
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                  </div>
+                  <div class="line"></div>
+                  <div class="comments-card__author">
+                    <h4 class="comments-card__author-name">Suzan B.</h4>
+                    <p class="comments-card__author-title">UI Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide comments-card">
+                <img
+                  src="/assets/images/comments3.png"
+                  alt="Customer Avatar"
+                  class="comments-card__avatar" />
+                <div class="comments-card__content">
+                  <p class="comments-card__text">
+                    “Items That I ordered were the best investment I ever made.
+                    I can't say enough about your quality service."
+                  </p>
+                  <div class="product-card__rating">
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                  </div>
+                  <div class="line"></div>
+                  <div class="comments-card__author">
+                    <h4 class="comments-card__author-name">Suzan B.</h4>
+                    <p class="comments-card__author-title">UI Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide comments-card">
+                <img
+                  src="/assets/images/comments2.png"
+                  alt="Customer Avatar"
+                  class="comments-card__avatar" />
+                <div class="comments-card__content">
+                  <p class="comments-card__text">
+                    “Items That I ordered were the best investment I ever made.
+                    I can't say enough about your quality service."
+                  </p>
+                  <div class="product-card__rating">
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                    <span class="product-card__star">
+                      <img src="/assets/icon/star2.svg" alt="" />
+                    </span>
+                  </div>
+                  <div class="line"></div>
+                  <div class="comments-card__author">
+                    <h4 class="comments-card__author-name">Suzan B.</h4>
+                    <p class="comments-card__author-title">UI Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination comments-swiper-pagination"></div>
+            <div class="comments-navigation">
+              <div class="comments-button-prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M15 18l-6-6 6-6"></path>
+                </svg>
+              </div>
+              <div class="comments-button-next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M9 18l6-6-6-6"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__image">
+          <img src="assets/images/subscribe.png" alt="" />
+        </div>
+        <div class="subscribe__content">
+          <h2 class="subscribe__title">Subscribe To Our Newsletter</h2>
+          <p class="subscribe__description">
+            Stay up to date with the latest trends, exclusive offers, and
+            special promotions. Join our newsletter and never miss out on new
+            arrivals and exciting updates from FASCO.
+          </p>
+          <form class="subscribe__form">
+            <input
+              type="email"
+              class="subscribe__input"
+              name="email"
+              id="subscribe-email"
+              placeholder="Your email address" />
+            <input
+              type="submit"
+              class="subscribe__submit btn"
+              value="Subscribe Now" />
+          </form>
+        </div>
+        <div class="subscribe__image">
+          <img src="assets/images/subscribe2.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <span class="line"></span>
+    <footer class="footer container"></footer>
+    <script src="js/home.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

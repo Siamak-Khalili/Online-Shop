@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+  </head>
+  <body>
+    <header class="main-header container"></header>
+    <section class="checkout container">
+      <div class="checkout__form">
+        <div class="checkout-form__section checkout-form__section--account">
+          <div class="checkout-form__account-header">
+            <h2 class="checkout-form__title">Account</h2>
+            <p class="checkout-form__text">
+              Have an account?
+              <a href="#" class="checkout-form__link">Create Account</a>
+            </p>
+          </div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            class="checkout-form__input" />
+        </div>
+
+        <div class="checkout-form__section checkout-form__section--delivery">
+          <h2 class="checkout-form__title">Delivery</h2>
+          <div class="checkout-form__delivery-details">
+            <select
+              id="country-region"
+              name="country-region"
+              class="checkout-form__select">
+              <option value="">Country / Region</option>
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+              <option value="germany">Germany</option>
+            </select>
+            <input
+              type="text  "
+              id="first-name"
+              name="First Name"
+              placeholder="First Name"
+              class="checkout-form__input" />
+            <input
+              type="text"
+              id="last-name"
+              name="Last Name"
+              placeholder="Last Name"
+              class="checkout-form__input" />
+            <input
+              type="text  "
+              id="address"
+              name="Address"
+              placeholder="Address"
+              class="checkout-form__input" />
+            <input
+              type="text  "
+              id="city"
+              name="City"
+              placeholder="City"
+              class="checkout-form__input" />
+            <input
+              type="text  "
+              id="postal-code"
+              name="Postal Code"
+              placeholder="Postal Code"
+              class="checkout-form__input" />
+            <div class="checkout-form__checkbox-group">
+              <input
+                type="checkbox"
+                id="save-info-delivery"
+                name="save-info-delivery"
+                class="checkout-form__checkbox" />
+              <label for="save-info-delivery" class="checkout-form__label">
+                Save This Info For Future
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="checkout-form__section checkout-form__section--payment">
+          <h2 class="checkout-form__title">Payment</h2>
+
+          <div class="checkout-form__group">
+            <select
+              id="credit-card"
+              name="credit-card"
+              class="checkout-form__select">
+              <option value="visa">Credit Card</option>
+              <option value="visa">Visa</option>
+              <option value="mastercard">MasterCard</option>
+              <option value="amex">American Express</option>
+            </select>
+          </div>
+
+          <div class="checkout-form__group">
+            <div class="checkout-form__input-icon-wrapper">
+              <input
+                type="text"
+                id="card-number"
+                name="card-number"
+                placeholder="Card Number"
+                class="checkout-form__input" />
+              <span
+                class="checkout-form__icon checkout-form__icon--lock"></span>
+            </div>
+          </div>
+
+          <div class="checkout-form__row">
+            <div class="checkout-form__group checkout-form__group--half">
+              <input
+                type="text"
+                id="expiration-date"
+                name="expiration-date"
+                placeholder="Expiration Date"
+                class="checkout-form__input" />
+            </div>
+            <div class="checkout-form__group checkout-form__group--half">
+              <input
+                type="text"
+                id="security-code"
+                name="security-code"
+                placeholder="Security Code"
+                class="checkout-form__input" />
+            </div>
+          </div>
+
+          <div class="checkout-form__group">
+            <input
+              type="text"
+              id="card-holder-name"
+              name="card-holder-name"
+              placeholder="Card Holder Name"
+              class="checkout-form__input" />
+          </div>
+
+          <div class="checkout-form__group checkout-form__checkbox-group">
+            <input
+              type="checkbox"
+              id="save-info-payment"
+              name="save-info-payment"
+              class="checkout-form__checkbox" />
+            <label for="save-info-payment" class="checkout-form__label">
+              Save This Info For Future
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="checkout-form__button btn">Pay Now</button>
+
+        <p class="checkout-form__copyright">
+          Copyright © 2022 FASCO. All Rights Reserved.
+        </p>
+      </div>
+
+      <div class="checkout__cart">
+        <div class="discount-section">
+          <input type="text" placeholder="Discount code" />
+          <button class="apply-btn">Apply</button>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe container">
+      <div class="subscribe__image">
+        <img src="assets/images/subscribe.png" alt="" />
+      </div>
+      <div class="subscribe__content">
+        <h2 class="subscribe__title">Subscribe To Our Newsletter</h2>
+        <p class="subscribe__description">
+          Stay up to date with the latest trends, exclusive offers, and special
+          promotions. Join our newsletter and never miss out on new arrivals and
+          exciting updates from FASCO.
+        </p>
+        <form class="subscribe__form">
+          <input
+            type="email"
+            class="subscribe__input"
+            name="email"
+            id="subscribe-email"
+            placeholder="Your email address" />
+          <input
+            type="submit"
+            class="subscribe__submit btn"
+            value="Subscribe Now" />
+        </form>
+      </div>
+      <div class="subscribe__image">
+        <img src="assets/images/subscribe2.png" alt="" />
+      </div>
+    </section>
+    <footer class="footer container"></footer>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

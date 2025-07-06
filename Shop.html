@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <header class="main-header container"></header>
+
+    <main class="container">
+      <section class="shop">
+        <div class="shop__filter">
+          <h2>Filters</h2>
+
+          <div class="shop__filter-group">
+            <p class="shop__filter-title">Size</p>
+            <div class="shop__filter-groups sizes-filter"></div>
+          </div>
+
+          <div class="shop__filter-group">
+            <p class="shop__filter-title">Colors</p>
+            <div class="shop__filter-groups colors-filter"></div>
+          </div>
+
+          <div class="shop__filter-group price-filter">
+            <p class="shop__filter-title">Prices</p>
+          </div>
+
+          <div class="shop__filter-group">
+            <p class="shop__filter-title">Brands</p>
+            <div class="shop__filter-groups brands-filter"></div>
+          </div>
+
+          <div class="shop__filter-group collections-filter">
+            <p class="shop__filter-title">Collections</p>
+          </div>
+
+          <div class="shop__filter-group">
+            <p class="shop__filter-title">Tags</p>
+            <div class="shop__filter-groups tags-filter"></div>
+          </div>
+        </div>
+        <div class="shop__grid">
+          <div class="shop-grid__header">
+            <div class="shop-grid__sort">
+              <select
+                class="sort-select"
+                name="sort"
+                aria-label="Sort products">
+                <option value="newest">Newest First</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="best-selling">Best Selling</option>
+              </select>
+            </div>
+            <div class="selected-filters"></div>
+          </div>
+
+          <div id="shop-grid" class="shop-grid"></div>
+          <div class="pagination"></div>
+        </div>
+      </section>
+      <section class="collection">
+        <div class="image-panel">
+          <img src="assets/images/collection2.png" alt="Model" />
+        </div>
+        <div class="content-panel">
+          <div class="collection__title">Women Collection</div>
+          <h2>Peaky Blinders</h2>
+          <div class="description-title">Description</div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis ultrices sollicitudin aliquam sem.
+          </p>
+          <div class="size-label">
+            Size:
+            <span class="size-selector">M</span>
+          </div>
+          <div class="price">$100.00</div>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="distinction">
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">High Quality</h3>
+            <p class="distinction__description">crafted from top materials</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction2.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">Warranty Protection</h3>
+            <p class="distinction__description">Over 2 years</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction3.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">Free Shipping</h3>
+            <p class="distinction__description">Order over 150 $</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction4.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">24 / 7 Support</h3>
+            <p class="distinction__description">Dedicated support</p>
+          </div>
+        </div>
+      </section>
+      <section class="instagram">
+        <div class="section-header">
+          <h2 class="section__title block-heading">Follow Us On Instagram</h2>
+          <p>
+            Discover the latest trends and exclusive looks from our collection.
+            Follow us for daily inspiration, style tips, and behind-the-scenes
+            moments.
+          </p>
+        </div>
+        <div class="instagram__gallery">
+          <img
+            src="assets/images/Instagram.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram2.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram3.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram4.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram5.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram6.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram7.jpg"
+            alt=""
+            class="instagram__image" />
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__image">
+          <img src="assets/images/subscribe.png" alt="" />
+        </div>
+        <div class="subscribe__content">
+          <h2 class="subscribe__title">Subscribe To Our Newsletter</h2>
+          <p class="subscribe__description">
+            Stay up to date with the latest trends, exclusive offers, and
+            special promotions. Join our newsletter and never miss out on new
+            arrivals and exciting updates from FASCO.
+          </p>
+          <form class="subscribe__form">
+            <input
+              type="email"
+              class="subscribe__input"
+              name="email"
+              id="subscribe-email"
+              placeholder="Your email address" />
+            <input
+              type="submit"
+              class="subscribe__submit btn"
+              value="Subscribe Now" />
+          </form>
+        </div>
+        <div class="subscribe__image">
+          <img src="assets/images/subscribe2.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <span class="line"></span>
+    <footer class="footer container"></footer>
+    <script type="module" src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <title>Single Product</title>
+  </head>
+  <body>
+    <header class="main-header container"></header>
+
+    <main class="container">
+      <section class="product">
+        <div class="product__gallery">
+          <div class="product__thumbnails"></div>
+          <div class="product__main-image-container">
+            <img class="product__main-image" src="" alt="" />
+          </div>
+        </div>
+
+        <div class="product__info">
+          <div class="product__header">
+            <p class="product__brand"></p>
+            <h1 class="product__title"></h1>
+            <div class="product__rating-container">
+              <div class="product-card__rating"></div>
+              <span class="product-card__reviews"></span>
+            </div>
+            <div class="price">
+              <span class="discounted-price"></span>
+              <span class="original-price"></span>
+              <div class="discount-badge"></div>
+            </div>
+          </div>
+
+          <div class="product__viewing">
+            <img src="/assets/images/eye.png" alt="" />
+            <p>24 people are viewing this right now</p>
+          </div>
+
+          <div class="product__countdown">
+            <span class="product__countdown-label"
+              >Hurry up! Sale ends in:</span
+            >
+            <div class="product__timer">00 : 05 : 59 : 47</div>
+          </div>
+
+          <div class="product__stock">
+            <p class="product__stock-label">
+              Only <span style="font-weight: 600">9</span> item(s) left in
+              stock!
+            </p>
+            <div class="product__stock-bar">
+              <div class="product__stock-bar-inner"></div>
+            </div>
+          </div>
+
+          <div class="product__option">
+            <p class="product__option-size">Size:</p>
+            <div class="product__option-values size-values"></div>
+          </div>
+
+          <div class="product__option">
+            <p class="product__option-label">Color:</p>
+            <div class="product__option-values color-values"></div>
+          </div>
+
+          <div class="product__quantity">
+            <p class="product__quantity-label">Quantity</p>
+            <div class="product__quantity-control">
+              <div class="cart-item-conteoller">
+                <span class="chevron-up" data-id="2">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                      d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"></path>
+                  </svg>
+                </span>
+                <p>1</p>
+                <span class="chevron-down" data-id="2">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                  </svg>
+                </span>
+              </div>
+              <button class="btn add-to-cart" data-id="1" disabled>
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product__actions">
+            <div class="product__action">
+              <img src="/assets/icon/Vector2.png" alt="" />
+              <span>Compare</span>
+            </div>
+            <div class="product__action">
+              <img src="/assets/icon/Vector.png" alt="" />
+              <span>Ask a question</span>
+            </div>
+            <div class="product__action">
+              <img src="/assets/icon/shear.png" alt="" />
+              <span>Share</span>
+            </div>
+          </div>
+
+          <div class="product__payment">
+            <img src="/assets/images/payment.png" alt="" />
+            <p>Guarantee safe & secure checkout</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection">
+        <div class="image-panel">
+          <img src="assets/images/collection2.png" alt="Model" />
+        </div>
+        <div class="content-panel">
+          <div class="collection__title">Women Collection</div>
+          <h2>Peaky Blinders</h2>
+          <div class="description-title">Description</div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis ultrices sollicitudin aliquam sem.
+          </p>
+          <div class="size-label">
+            Size:
+            <span class="size-selector">M</span>
+          </div>
+          <div class="price">$100.00</div>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="distinction">
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">High Quality</h3>
+            <p class="distinction__description">crafted from top materials</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction2.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">Warranty Protection</h3>
+            <p class="distinction__description">Over 2 years</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction3.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">Free Shipping</h3>
+            <p class="distinction__description">Order over 150 $</p>
+          </div>
+        </div>
+        <div class="distinction__item">
+          <img
+            src="/assets/images/distinction4.png"
+            alt=""
+            class="distinction__icon" />
+          <div class="distinction__wrapper">
+            <h3 class="distinction__title">24 / 7 Support</h3>
+            <p class="distinction__description">Dedicated support</p>
+          </div>
+        </div>
+      </section>
+      <section class="instagram">
+        <div class="section-header">
+          <h2 class="section__title block-heading">Follow Us On Instagram</h2>
+          <p>
+            Discover the latest trends and exclusive looks from our collection.
+            Follow us for daily inspiration, style tips, and behind-the-scenes
+            moments.
+          </p>
+        </div>
+        <div class="instagram__gallery">
+          <img
+            src="assets/images/Instagram.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram2.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram3.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram4.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram5.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram6.jpg"
+            alt=""
+            class="instagram__image" />
+          <img
+            src="assets/images/Instagram7.jpg"
+            alt=""
+            class="instagram__image" />
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__image">
+          <img src="assets/images/subscribe.png" alt="" />
+        </div>
+        <div class="subscribe__content">
+          <h2 class="subscribe__title">Subscribe To Our Newsletter</h2>
+          <p class="subscribe__description">
+            Stay up to date with the latest trends, exclusive offers, and
+            special promotions. Join our newsletter and never miss out on new
+            arrivals and exciting updates from FASCO.
+          </p>
+          <form class="subscribe__form">
+            <input
+              type="email"
+              class="subscribe__input"
+              name="email"
+              id="subscribe-email"
+              placeholder="Your email address" />
+            <input
+              type="submit"
+              class="subscribe__submit btn"
+              value="Subscribe Now" />
+          </form>
+        </div>
+        <div class="subscribe__image">
+          <img src="assets/images/subscribe2.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <span class="line"></span>
+    <footer class="footer container"></footer>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/single-products.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

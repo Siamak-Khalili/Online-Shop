@@ -1,0 +1,657 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Denim Jacket",
+      "slug": "denim-jacket",
+      "price": 45.99,
+      "discountedPrice": 35.99,
+      "images": [
+        "./assets/images/products/Denim-Jacket.jpg",
+        "./assets/images/products/rounded-red-hat.jpg",
+        "./assets/images/products/rounded-red-hat.jpg"
+      ],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": ["#B0E0E6", "#000000", "#FFB6C1"],
+      "colorNames": ["Powder Blue", "Black", "Light Pink"],
+      "category": "men-fashion",
+      "brand": "Retrolie",
+      "collections": "New arrivals",
+      "tags": ["Denim", "Fashion"],
+      "ratings": {
+        "average": 4.5,
+        "count": 1
+      }
+    },
+    {
+      "id": 2,
+      "title": "Rounded Red Hat",
+      "slug": "rounded-red-hat",
+      "price": 12.5,
+      "images": [
+        "./assets/images/products/rounded-red-hat.jpg",
+        "./assets/images/products/rounded-red-hat-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFE4E1", "#DDA0DD"],
+      "colorNames": ["Misty Rose", "Plum"],
+      "category": "men-fashion",
+      "brand": "Learts",
+      "collections": "Accessories",
+      "tags": ["Hats", "Fashion"],
+      "ratings": {
+        "average": 4.2,
+        "count": 98
+      }
+    },
+    {
+      "id": 3,
+      "title": "Linen-blend Shirt",
+      "slug": "linen-blend-shirt",
+      "price": 24.99,
+      "images": [
+        "./assets/images/products/Linen-blend-Shirt.jpg",
+        "./assets/images/products/Linen-blend-Shirt-2.jpg"
+      ],
+      "sizes": ["S", "M", "XXL"],
+      "colors": ["#E0FFFF", "#FFF0F5"],
+      "colorNames": ["Light Cyan", "Lavender Blush"],
+      "category": "men-fashion",
+      "brand": "Brook",
+      "collections": "Best sellers",
+      "tags": ["Hats", "Minimog"],
+      "ratings": {
+        "average": 4.7,
+        "count": 150
+      }
+    },
+    {
+      "id": 4,
+      "title": "Long-sleeve Coat",
+      "slug": "long-sleeve-coat",
+      "price": 89.99,
+      "images": [
+        "./assets/images/products/Long-sleeve-Coat.jpg",
+        "./assets/images/products/Long-sleeve-Coat-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#F5DEB3", "#FFC0CB"],
+      "colorNames": ["Wheat", "Pink"],
+      "category": "men-fashion",
+      "brand": "Vagabond",
+      "collections": "New arrivals",
+      "tags": ["Hats", "Vagabond"],
+      "ratings": {
+        "average": 4.3,
+        "count": 75
+      }
+    },
+    {
+      "id": 5,
+      "title": "Boxy Denim Hat",
+      "slug": "boxy-denim-hat",
+      "price": 19.99,
+      "images": [
+        "./assets/images/products/Boxy-Denim-Hat.jpg",
+        "./assets/images/products/Boxy-Denim-Hat-2.jpg"
+      ],
+      "sizes": ["S", "XL", "XXL"],
+      "colors": ["#B0E0E6", "#FFB6C1"],
+      "colorNames": ["Powder Blue", "Light Pink"],
+      "category": "men-fashion",
+      "brand": "Abby",
+      "collections": "Accessories",
+      "tags": ["Hats", "Denim"],
+      "ratings": {
+        "average": 4.6,
+        "count": 110
+      }
+    },
+    {
+      "id": 6,
+      "title": "Linen Plain Top",
+      "slug": "linen-plain-top",
+      "price": 29.99,
+      "images": [
+        "./assets/images/products/Linen-Plain-Top.jpg",
+        "./assets/images/products/Linen-Plain-Top-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#F0FFF0", "#FFF5EE"],
+      "colorNames": ["Honeydew", "Seashell"],
+      "category": "men-fashion",
+      "brand": "Minimog",
+      "collections": "Best sellers",
+      "tags": ["Sandal", "Beachwear"],
+      "ratings": {
+        "average": 4.4,
+        "count": 85
+      }
+    },
+    {
+      "id": 7,
+      "title": "Polarised Sunglasses",
+      "slug": "polarised-sunglasses",
+      "price": 22.5,
+      "discountedPrice": 16.99,
+      "images": [
+        "./assets/images/products/Polarised-Sunglasses.jpg",
+        "./assets/images/products/Polarised-Sunglasses-2.jpg"
+      ],
+      "sizes": ["S", "M", "L"],
+      "colors": ["#FFE4B5", "#DEB887"],
+      "colorNames": ["Moccasin", "Burlywood"],
+      "category": "women-fashion",
+      "brand": "Retrolie",
+      "collections": "Accessories",
+      "tags": ["Sunglasses", "Sandal"],
+      "ratings": {
+        "average": 4.8,
+        "count": 130
+      }
+    },
+    {
+      "id": 8,
+      "title": "Rockstar Jacket",
+      "slug": "rockstar-jacket",
+      "price": 34.99,
+      "images": [
+        "./assets/images/products/Rockstar-Jacket.jpg",
+        "./assets/images/products/Rockstar-Jacket-2.jpg"
+      ],
+      "sizes": ["S", "XL", "XXL"],
+      "colors": ["#E6E6FA", "#FFC0CB"],
+      "colorNames": ["Lavender", "Pink"],
+      "category": "women-fashion",
+      "brand": "Learts",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Minimog"],
+      "ratings": {
+        "average": 4.1,
+        "count": 60
+      }
+    },
+    {
+      "id": 9,
+      "title": "Dotted Black Dress",
+      "slug": "dotted-black-dress",
+      "price": 45.99,
+      "images": [
+        "./assets/images/products/Dotted-Black-Dress.jpg",
+        "./assets/images/products/Dotted-Black-Dress-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFE4E1", "#DDA0DD", "#E6E6FA"],
+      "colorNames": ["Misty Rose", "Plum", "Lavender"],
+      "category": "women-fashion",
+      "brand": "Brook",
+      "collections": "Best sellers",
+      "tags": ["Fashion", "Beachwear"],
+      "ratings": {
+        "average": 4.9,
+        "count": 200
+      }
+    },
+    {
+      "id": 10,
+      "title": "Shiny Dress",
+      "slug": "shiny-dress",
+      "price": 79.99,
+      "discountedPrice": 59.99,
+      "images": [
+        "./assets/images/products/Shiny-Dress.jpg",
+        "./assets/images/products/Shiny-Dress-2.jpg"
+      ],
+      "sizes": ["S", "M", "XXL"],
+      "colors": ["#FFB6C1", "#DDA0DD", "#F0E68C"],
+      "colorNames": ["Light Pink", "Plum", "Khaki"],
+      "category": "women-fashion",
+      "brand": "Vagabond",
+      "collections": "New arrivals",
+      "tags": ["Sandal", "Minimog"],
+      "ratings": {
+        "average": 4.3,
+        "count": 90
+      }
+    },
+    {
+      "id": 11,
+      "title": "Long Dress",
+      "slug": "long-dress",
+      "price": 65.99,
+      "images": [
+        "./assets/images/products/Long-Dress.jpg",
+        "./assets/images/products/Long-Dress-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#E0FFFF", "#FFB6C1", "#DDA0DD"],
+      "colorNames": ["Light Cyan", "Light Pink", "Plum"],
+      "category": "women-fashion",
+      "brand": "Abby",
+      "collections": "Best sellers",
+      "tags": ["Fashion", "Beachwear"],
+      "ratings": {
+        "average": 4.6,
+        "count": 115
+      }
+    },
+    {
+      "id": 12,
+      "title": "Full Sweater",
+      "slug": "full-sweater",
+      "price": 55.99,
+      "images": [
+        "./assets/images/products/Full-Sweater.jpg",
+        "./assets/images/products/Full-Sweater-2.jpg"
+      ],
+      "sizes": ["S", "XL", "XXL"],
+      "colors": ["#F0FFF0", "#FFE4E1", "#E6E6FA"],
+      "colorNames": ["Honeydew", "Misty Rose", "Lavender"],
+      "category": "women-fashion",
+      "brand": "Minimog",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Minimog"],
+      "ratings": {
+        "average": 4.2,
+        "count": 70
+      }
+    },
+    {
+      "id": 13,
+      "title": "Denim Jacket",
+      "slug": "denim-jacket-white",
+      "price": 159.99,
+      "discountedPrice": 119.99,
+      "images": [
+        "./assets/images/products/White-Dress.jpg",
+        "./assets/images/products/White-Dress-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFB6C1", "#E0FFFF", "#DDA0DD"],
+      "colorNames": ["Light Pink", "Light Cyan", "Plum"],
+      "category": "women-accessories",
+      "brand": "Retrolie",
+      "collections": "Best sellers",
+      "tags": ["Denim", "Fashion"],
+      "ratings": {
+        "average": 4.7,
+        "count": 140
+      }
+    },
+    {
+      "id": 14,
+      "title": "Colorful Dress",
+      "slug": "colorful-dress",
+      "price": 59.99,
+      "images": [
+        "./assets/images/products/Colorful-Dress.jpg",
+        "./assets/images/products/Colorful-Dress-2.jpg"
+      ],
+      "sizes": ["S", "M", "XXL"],
+      "colors": ["#FFC0CB", "#E6E6FA", "#F0E68C"],
+      "colorNames": ["Pink", "Lavender", "Khaki"],
+      "category": "women-accessories",
+      "brand": "Learts",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Beachwear"],
+      "ratings": {
+        "average": 4.4,
+        "count": 80
+      }
+    },
+    {
+      "id": 15,
+      "title": "White Shirt",
+      "slug": "white-shirt",
+      "price": 39.99,
+      "images": [
+        "./assets/images/products/White-Shirt.jpg",
+        "./assets/images/products/White-Shirt-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFF5EE", "#F0FFF0", "#FFE4E1"],
+      "colorNames": ["Seashell", "Honeydew", "Misty Rose"],
+      "category": "women-accessories",
+      "brand": "Brook",
+      "collections": "Best sellers",
+      "tags": ["Fashion", "Minimog"],
+      "ratings": {
+        "average": 4.1,
+        "count": 65
+      }
+    },
+    {
+      "id": 16,
+      "title": "Long Dress Black",
+      "slug": "long-dress-black",
+      "price": 49.99,
+      "discountedPrice": 34.99,
+      "images": [
+        "./assets/images/products/Long-Dress-Black.jpg",
+        "./assets/images/products/Long-Dress-Black-2.jpg"
+      ],
+      "sizes": ["S", "XL", "XXL"],
+      "colors": ["#000000", "#FFB6C1", "#DDA0DD"],
+      "colorNames": ["Black", "Light Pink", "Plum"],
+      "category": "women-accessories",
+      "brand": "Vagabond",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Beachwear"],
+      "ratings": {
+        "average": 4.3,
+        "count": 75
+      }
+    },
+    {
+      "id": 17,
+      "title": "Skirt and top set",
+      "slug": "skirt-and-top-set",
+      "price": 45.99,
+      "discountedPrice": 36.99,
+      "images": [
+        "./assets/images/products/Skirt-and-top-set.jpg",
+        "./assets/images/products/Skirt-and-top-set-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#E0FFFF", "#FFC0CB", "#F0E68C"],
+      "colorNames": ["Light Cyan", "Pink", "Khaki"],
+      "category": "women-accessories",
+      "brand": "Abby",
+      "collections": "Best sellers",
+      "tags": ["Fashion", "Minimog"],
+      "ratings": {
+        "average": 4.2,
+        "count": 80
+      }
+    },
+    {
+      "id": 18,
+      "title": "torso",
+      "slug": "torso",
+      "price": 84.99,
+      "discountedPrice": 44.99,
+      "images": [
+        "./assets/images/products/torso.jpg",
+        "./assets/images/products/torso-2.jpg"
+      ],
+      "sizes": ["S", "M", "XXL"],
+      "colors": ["#FFE4E1", "#E6E6FA", "#DDA0DD"],
+      "colorNames": ["Misty Rose", "Lavender", "Plum"],
+      "category": "women-accessories",
+      "brand": "Minimog",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Beachwear"],
+      "ratings": {
+        "average": 4.0,
+        "count": 50
+      }
+    },
+    {
+      "id": 19,
+      "title": "Blue dress",
+      "slug": "blue-dress",
+      "price": 42.99,
+      "discountedPrice": 32.99,
+      "images": [
+        "./assets/images/products/Blue-dress.jpg",
+        "./assets/images/products/Blue-dress-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#87CEEB", "#E0FFFF", "#F0FFF0"],
+      "colorNames": ["Sky Blue", "Light Cyan", "Honeydew"],
+      "category": "men-accessories",
+      "brand": "Retrolie",
+      "collections": "Best sellers",
+      "tags": ["Fashion", "Minimog"],
+      "ratings": {
+        "average": 4.5,
+        "count": 95
+      }
+    },
+    {
+      "id": 20,
+      "title": "Cream evening dress",
+      "slug": "cream-evening-dress",
+      "price": 89.99,
+      "images": [
+        "./assets/images/products/Cream-evening-dress.jpg",
+        "./assets/images/products/Cream-evening-dress-2.jpg"
+      ],
+      "sizes": ["S", "XL", "XXL"],
+      "colors": ["#FFF5EE", "#FFE4E1", "#FFB6C1"],
+      "colorNames": ["Seashell", "Misty Rose", "Light Pink"],
+      "category": "men-accessories",
+      "brand": "Learts",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Beachwear"],
+      "ratings": {
+        "average": 4.8,
+        "count": 125
+      }
+    },
+    {
+      "id": 21,
+      "title": "Full set of clothes",
+      "slug": "full-set-of-clothes",
+      "price": 129.99,
+      "discountedPrice": 99.99,
+      "images": [
+        "./assets/images/products/Full-set-of-clothes.jpg",
+        "./assets/images/products/Full-set-of-clothes-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#E6E6FA", "#FFC0CB", "#DDA0DD"],
+      "colorNames": ["Lavender", "Pink", "Plum"],
+      "category": "men-accessories",
+      "brand": "Brook",
+      "collections": "Accessories",
+      "tags": ["Fashion", "Belt"],
+      "ratings": {
+        "average": 4.6,
+        "count": 140
+      }
+    },
+    {
+      "id": 22,
+      "title": "Official set",
+      "slug": "official-set",
+      "price": 145.99,
+      "images": [
+        "./assets/images/products/Official-set.jpg",
+        "./assets/images/products/Official-set-2.jpg"
+      ],
+      "sizes": ["S", "M", "XXL"],
+      "colors": ["#000000", "#FFB6C1", "#E0FFFF"],
+      "colorNames": ["Black", "Light Pink", "Light Cyan"],
+      "category": "men-accessories",
+      "brand": "Vagabond",
+      "collections": "Best sellers",
+      "tags": ["Snacker", "Bags"],
+      "ratings": {
+        "average": 4.3,
+        "count": 70
+      }
+    },
+    {
+      "id": 23,
+      "title": "sleepwear set",
+      "slug": "sleepwear-set",
+      "price": 35.99,
+      "discountedPrice": 27.99,
+      "images": [
+        "./assets/images/products/sleepwear-set.jpg",
+        "./assets/images/products/sleepwear-set-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFF0F5", "#E6E6FA", "#FFE4E1"],
+      "colorNames": ["Lavender Blush", "Lavender", "Misty Rose"],
+      "category": "men-accessories",
+      "brand": "Abby",
+      "collections": "New arrivals",
+      "tags": ["Belt", "Beachwear"],
+      "ratings": {
+        "average": 4.0,
+        "count": 55
+      }
+    },
+    {
+      "id": 24,
+      "title": "Brown coat",
+      "slug": "brown-coat",
+      "price": 79.99,
+      "images": [
+        "./assets/images/products/Brown-coat.jpg",
+        "./assets/images/products/Brown-coat-2.jpg"
+      ],
+      "sizes": ["S", "XL", "XXL"],
+      "colors": ["#DEB887", "#F5DEB3", "#FFE4B5"],
+      "colorNames": ["Burlywood", "Wheat", "Moccasin"],
+      "category": "men-accessories",
+      "brand": "Minimog",
+      "collections": "Best sellers",
+      "tags": ["Belt", "Minimog"],
+      "ratings": {
+        "average": 4.2,
+        "count": 65
+      }
+    },
+    {
+      "id": 25,
+      "title": "pink hat",
+      "slug": "pink-hat",
+      "price": 19.99,
+      "discountedPrice": 14.99,
+      "images": [
+        "./assets/images/products/pink-hat.jpg",
+        "./assets/images/products/pink-hat-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFB6C1", "#FFC0CB", "#FFE4E1"],
+      "colorNames": ["Light Pink", "Pink", "Misty Rose"],
+      "category": "women-accessories",
+      "brand": "Retrolie",
+      "collections": "Accessories",
+      "tags": ["Hats", "Bags"],
+      "ratings": {
+        "average": 4.1,
+        "count": 40
+      }
+    },
+    {
+      "id": 26,
+      "title": "suit",
+      "slug": "suit",
+      "price": 189.99,
+      "images": [
+        "./assets/images/products/suit.jpg",
+        "./assets/images/products/suit-2.jpg"
+      ],
+      "sizes": ["S", "M", "XXL"],
+      "colors": ["#000000", "#F0FFF0", "#FFF5EE"],
+      "colorNames": ["Black", "Honeydew", "Seashell"],
+      "category": "women-accessories",
+      "brand": "Learts",
+      "collections": "New arrivals",
+      "tags": ["Fashion", "Minimog"],
+      "ratings": {
+        "average": 4.7,
+        "count": 95
+      }
+    },
+    {
+      "id": 27,
+      "title": "Skirt and T-shirt",
+      "slug": "skirt-and-t-shirt",
+      "price": 44.99,
+      "discountedPrice": 34.99,
+      "images": [
+        "./assets/images/products/Skirt-and-T-shirt.jpg",
+        "./assets/images/products/Skirt-and-T-shirt-2.jpg"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": ["#FFB6C1", "#E6E6FA", "#F0E68C"],
+      "colorNames": ["Light Pink", "Lavender", "Khaki"],
+      "category": "women-accessories",
+      "brand": "Brook",
+      "collections": "Best sellers",
+      "tags": ["Snacker", "Bags"],
+      "ratings": {
+        "average": 4.4,
+        "count": 85
+      }
+    }
+  ],
+  "categories": {
+    "men-fashion": {
+      "id": "men-fashion",
+      "name": "Men's Fashion",
+      "description": "Fashion items for men including jackets, shirts, hats and more"
+    },
+    "women-fashion": {
+      "id": "women-fashion",
+      "name": "Women's Fashion",
+      "description": "Fashion items for women including dresses, jackets, accessories and more"
+    },
+    "men-accessories": {
+      "id": "men-accessories",
+      "name": "Men's Accessories",
+      "description": "Accessories for men including hats, belts, sunglasses and more"
+    },
+    "women-accessories": {
+      "id": "women-accessories",
+      "name": "Women's Accessories",
+      "description": "Accessories for women including hats, bags, sunglasses and more"
+    }
+  },
+  "collections": {
+    "new-arrivals": {
+      "id": "new-arrivals",
+      "name": "New Arrivals",
+      "description": "Latest fashion items and accessories"
+    },
+    "best-sellers": {
+      "id": "best-sellers",
+      "name": "Best Sellers",
+      "description": "Our most popular fashion items"
+    },
+    "accessories": {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "Fashion accessories for men and women"
+    }
+  },
+  "brands": {
+    "retrolie": {
+      "id": "retrolie",
+      "name": "Retrolie",
+      "description": "Vintage inspired fashion brand"
+    },
+    "learts": {
+      "id": "learts",
+      "name": "Learts",
+      "description": "Contemporary fashion brand"
+    },
+    "brook": {
+      "id": "brook",
+      "name": "Brook",
+      "description": "Classic fashion essentials"
+    },
+    "vagabond": {
+      "id": "vagabond",
+      "name": "Vagabond",
+      "description": "Modern streetwear brand"
+    },
+    "abby": {
+      "id": "abby",
+      "name": "Abby",
+      "description": "Feminine fashion brand"
+    },
+    "minimog": {
+      "id": "minimog",
+      "name": "Minimog",
+      "description": "Minimalist fashion brand"
+    }
+  },
+  "cart": [],
+  "users": []
+}

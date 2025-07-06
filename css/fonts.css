@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Volkhov;
+  src: url("/assets/fonts/Volkhov-Regular.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url("/assets/fonts/Volkhov-Italic.woff") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url("/assets/fonts/Volkhov-Bold.woff") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url("/assets/fonts/Volkhov-BoldItalic.woff") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/fonts/Poppins-Medium.woff") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/fonts/Poppins-Regular.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Digital;
+  src: url("/assets/fonts/DigitalNumbers-Regular.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.timer__value {
+  font-family: 'Digital', monospace;
+}
+
+body,
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Volkhov", serif;
+}

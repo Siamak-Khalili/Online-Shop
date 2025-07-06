@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+  </head>
+  <body>
+    <header class="main-header container"></header>
+    <section class="signup container">
+      <div class="signup__image">
+        <img src="/assets/images/SignIn.jpg" alt="Signup illustration" />
+      </div>
+
+      <div class="signup__content">
+        <a href="" class="nav__logo"><p>FASCO</p></a>
+        <p class="signup__title">Sign In To FASCO</p>
+
+        <div class="signup__socials">
+          <div class="signup__social">
+            <img src="/assets/images/google.png" alt="Google icon" />
+            <p class="signup__social-text">Sign up with Google</p>
+          </div>
+          <div class="signup__social">
+            <img src="/assets/images/gmail.png" alt="Email icon" />
+            <p class="signup__social-text">Sign up with Email</p>
+          </div>
+        </div>
+
+        <p class="signup__separator">- OR -</p>
+
+        <form class="signup__form" id="signup-form">
+
+          <input
+            type="email"
+            id="signupEmail"
+            class="signup__input"
+            placeholder="Email Address" />
+
+          <input
+            type="password"
+            id="signupPassword"
+            class="signup__input"
+            placeholder="Password" />
+          <button
+            type="button"
+            class="signup__button btn"
+            onclick="handleSignup()">
+            Sign In
+          </button>
+        </form>
+        <p class="signup__login-link">
+           <a href="">Forget Password?</a>
+        </p>
+      </div>
+    </section>
+    <footer class="footer container"></footer>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
