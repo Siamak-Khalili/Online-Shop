@@ -32,7 +32,6 @@ class Storage {
 
   static addToCart(product, selectedColor, selectedColorName, selectedSize) {
     let cart = this.getCart();
-    // Check if item with same id, color, size exists
     const existingItem = cart.find(
       (item) =>
         item.id === product.id &&
@@ -77,13 +76,12 @@ class Products {
     try {
       const response = await axios.get(API_URL);
       let products = response.data;
-      // Add fake data for sorting
       products = products.map((product) => ({
         ...product,
         createdAt: new Date(
           Date.now() - Math.floor(Math.random() * 90) * 24 * 60 * 60 * 1000
-        ), // Random date within last 90 days
-        salesCount: Math.floor(Math.random() * 1000), // Random number of sales between 0-1000
+        ), 
+        salesCount: Math.floor(Math.random() * 1000), 
       }));
       Storage.saveProducts(products);
       return products;
@@ -478,7 +476,7 @@ class UI {
             item.quantity++;
             Storage.saveCart(cart);
             this.setCartValue(cart);
-            this.populateCart(cart); // update DOM
+            this.populateCart(cart); 
           }
         } else if (downButton) {
           const id = parseInt(downButton.dataset.id);
@@ -495,7 +493,7 @@ class UI {
               item.quantity--;
               Storage.saveCart(cart);
               this.setCartValue(cart);
-              this.populateCart(cart); // update DOM
+              this.populateCart(cart);
             } else {
               const cartItemElement = downButton.closest(".cart-item");
               if (cartItemElement) {
@@ -1637,7 +1635,6 @@ function updateProductDisplay(filteredProducts) {
     return;
   }
 
-  // Apply sorting
   const sortSelect = document.querySelector(".sort-select");
   if (sortSelect) {
     const sortBy = sortSelect.value;
@@ -1719,14 +1716,14 @@ function updateProductDisplay(filteredProducts) {
 function filterProducts() {
   let filteredProducts = products;
 
-  // Filter by size
+
   if (activeFilters.sizes.size > 0) {
     filteredProducts = filteredProducts.filter((product) =>
       product.sizes?.some((size) => activeFilters.sizes.has(size))
     );
   }
 
-  // Filter by color
+  
   if (activeFilters.colors.size > 0) {
     filteredProducts = filteredProducts.filter((product) =>
       product.colors?.some((color) =>
@@ -1737,7 +1734,7 @@ function filterProducts() {
     );
   }
 
-  // Filter by price range
+
   if (activeFilters.priceRanges.size > 0) {
     filteredProducts = filteredProducts.filter((product) => {
       const price = product.discountedPrice || product.price;
@@ -1748,21 +1745,21 @@ function filterProducts() {
     });
   }
 
-  // Filter by brand
+  
   if (activeFilters.brands.size > 0) {
     filteredProducts = filteredProducts.filter((product) =>
       activeFilters.brands.has(product.brand)
     );
   }
 
-  // Filter by tags
+  
   if (activeFilters.tags.size > 0) {
     filteredProducts = filteredProducts.filter((product) =>
       product.tags?.some((tag) => activeFilters.tags.has(tag))
     );
   }
 
-  // Filter by collections
+ 
   if (activeFilters.collections.size > 0) {
     filteredProducts = filteredProducts.filter((product) =>
       activeFilters.collections.has(product.collections)
@@ -1774,12 +1771,12 @@ function filterProducts() {
 }
 
 function initializeFilters() {
-  // Sort filter change handler
+  
   document.querySelector(".sort-select")?.addEventListener("change", () => {
     filterProducts();
   });
 
-  // Size filter click handlers
+ 
   document.querySelector(".sizes-filter")?.addEventListener("click", (e) => {
     if (e.target.matches(".product__size")) {
       e.target.classList.toggle("active");
@@ -1793,7 +1790,7 @@ function initializeFilters() {
     }
   });
 
-  // Color filter click handlers
+
   document.querySelector(".colors-filter")?.addEventListener("click", (e) => {
     if (e.target.matches(".shop-card__color")) {
       e.target.classList.toggle("active");
@@ -1807,7 +1804,7 @@ function initializeFilters() {
     }
   });
 
-  // Price filter click handlers
+  
   document.querySelector(".price-filter")?.addEventListener("click", (e) => {
     if (e.target.matches(".shop__filter-price")) {
       e.target.classList.toggle("active");
@@ -1821,7 +1818,7 @@ function initializeFilters() {
     }
   });
 
-  // Brand filter click handlers
+  
   document.querySelector(".brands-filter")?.addEventListener("click", (e) => {
     if (e.target.matches(".product__brand")) {
       e.target.classList.toggle("active");
@@ -1835,7 +1832,7 @@ function initializeFilters() {
     }
   });
 
-  // Tags filter click handlers
+  
   document.querySelector(".tags-filter")?.addEventListener("click", (e) => {
     if (e.target.matches(".shop__filter-tag")) {
       e.target.classList.toggle("active");
@@ -1849,7 +1846,7 @@ function initializeFilters() {
     }
   });
 
-  // Collections filter click handlers
+  
   document
     .querySelector(".collections-filter")
     ?.addEventListener("click", (e) => {

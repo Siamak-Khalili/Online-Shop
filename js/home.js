@@ -58,7 +58,6 @@ function updateTimer() {
     "0"
   );
 }
-
 const timerInterval = setInterval(updateTimer, 1000);
 updateTimer();
 
