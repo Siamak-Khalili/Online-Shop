@@ -78,7 +78,8 @@ npx json-server --watch db.json
 Open index.html in your browser (you can use Live Server for easier development).
 
 📷 Screenshots
-You can add screenshots of your homepage, product page, cart, etc. here for better presentation.
+![Project Screenshot](./Screenshots.jpg)
+
 
 🔧 Future Improvements
 Add full authentication and user accounts
