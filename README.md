@@ -78,8 +78,7 @@ npx json-server --watch db.json
 Open index.html in your browser (you can use Live Server for easier development).
 
 📷 Screenshots
-![Project Screenshot](./Screenshots.jpg)
-
+![Project Screenshot](https://github.com/Siamak-Khalili/Online-Shop/raw/main/Screenshots.jpg)
 
 🔧 Future Improvements
 Add full authentication and user accounts
