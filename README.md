@@ -57,7 +57,7 @@ Edit
 ---
 
 ##📷 Screenshots
-![FASCO Screenshot](./screenshot.png)
+![FASCO Screenshot](./Screenshots.jpg)
 
 ## 🚀 Getting Started
 
