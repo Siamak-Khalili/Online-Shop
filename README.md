@@ -56,6 +56,9 @@ Edit
 
 ---
 
+##📷 Screenshots
+![FASCO Screenshot](./screenshot.png)
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -77,8 +80,7 @@ npx json-server --watch db.json
 4. Open the Website
 Open index.html in your browser (you can use Live Server for easier development).
 
-📷 Screenshots
-![Project Screenshot](https://github.com/Siamak-Khalili/Online-Shop/raw/main/Screenshots.jpg)
+
 
 🔧 Future Improvements
 Add full authentication and user accounts
